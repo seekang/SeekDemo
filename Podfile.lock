@@ -1,0 +1,16 @@
+PODS:
+  - SeekBluetooth (0.1.0)
+
+DEPENDENCIES:
+  - SeekBluetooth (from `Lib/SeekBluetooth`)
+
+EXTERNAL SOURCES:
+  SeekBluetooth:
+    :path: Lib/SeekBluetooth
+
+SPEC CHECKSUMS:
+  SeekBluetooth: 58a606dd420777b19992e62f003be341b55d38f9
+
+PODFILE CHECKSUM: 464cba4ece3d8e72680b1a7d74e966df20df663f
+
+COCOAPODS: 1.11.2

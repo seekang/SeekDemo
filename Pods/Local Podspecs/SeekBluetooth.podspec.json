@@ -1,0 +1,22 @@
+{
+  "name": "SeekBluetooth",
+  "version": "0.1.0",
+  "summary": "A short description of SeekBluetooth.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/seek/SeekBluetooth",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "seek": "skzhao555@126.com"
+  },
+  "source": {
+    "git": "https://github.com/seek/SeekBluetooth.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SeekBluetooth/Classes/**/*"
+}

@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D38D7789F10DA8CED59973AC15D838 /* Pods-SeekDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FD75FEA47594EBAB7195D973D07F1 /* Pods-SeekDemo-dummy.m */; };
+		A5D48E836A77945363ACEED86364F60F /* BabyBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E43CED484F81A142C2E38433ED52F9C /* BabyBluetooth.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC00CF9A4C8740678B390394D5A95A20 /* SeekBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C2931E73C5B0431A4D802A5601B962 /* SeekBluetooth-dummy.m */; };
+		D36493907D8A333D796976FD795A8D1D /* Pods-SeekDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A53CB6755F640A0135BF1330545A031B /* Pods-SeekDemoTests-dummy.m */; };
+		E2C73CF5616F9C564829C358BE9F3EA7 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = E07A83DC734FD3905187F325955C84BD /* BabyBluetooth.m */; };
+		EC24C976D76472F1E02C57A9ABCA8E5C /* Pods-SeekDemo-SeekDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19B2E5926EC0EC93CCEC8B970CF1D2C /* Pods-SeekDemo-SeekDemoUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B784D2D9A9BD7ED674B0962BB6FF345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DCB1DD8545F1E66B0F1B215F2B5199;
+			remoteInfo = SeekBluetooth;
+		};
+		568B8AD70D5A87FBAD619A437DA8BF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DCB1DD8545F1E66B0F1B215F2B5199;
+			remoteInfo = SeekBluetooth;
+		};
+		9D89F355CBCA516C504785E80909C601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6FB916C1DE3148A53A73283D36C7D5;
+			remoteInfo = "Pods-SeekDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A0FF059C81163A80E386A3D7C4D94F /* Pods-SeekDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17C2931E73C5B0431A4D802A5601B962 /* SeekBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SeekBluetooth-dummy.m"; sourceTree = "<group>"; };
+		2217A7545518E32257B7654B6D64308E /* Pods-SeekDemo-SeekDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekDemo-SeekDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26C16548C5A74CDC92828E45A940C529 /* Pods-SeekDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		29642EA4A855C6FAA3F85859714CFC02 /* Pods-SeekDemo-SeekDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SeekDemo-SeekDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		312FB41B2D14D4F07595306605834553 /* Pods-SeekDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SeekDemo"; path = "libPods-SeekDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3795424CC9528E111DF5B0B22EEF9B82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../lib/SeekBluetooth/LICENSE; sourceTree = "<group>"; };
+		391CDB065CA7DA380F5270A37EEAFDDD /* Pods-SeekDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SeekDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E43CED484F81A142C2E38433ED52F9C /* BabyBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyBluetooth.h; path = ../../lib/SeekBluetooth/SeekBluetooth/Classes/BabyBluetooth.h; sourceTree = "<group>"; };
+		4E0FD75FEA47594EBAB7195D973D07F1 /* Pods-SeekDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SeekDemo-dummy.m"; sourceTree = "<group>"; };
+		5A528AC93F7840CDC57AE83D2B8917DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../../lib/SeekBluetooth/README.md; sourceTree = "<group>"; };
+		71AEEF56B0E111289C2D813C7616C42D /* Pods-SeekDemoTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SeekDemoTests"; path = "libPods-SeekDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		721F300B4AEBB5CF9104263EC13B36C5 /* Pods-SeekDemo-SeekDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SeekDemo-SeekDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		743C4CCF2CC8B4D845DB29ACC6930215 /* SeekBluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SeekBluetooth.release.xcconfig; sourceTree = "<group>"; };
+		7540608035FB8BFA056DA0EED41E3D20 /* Pods-SeekDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7752A2BA6F5C65B50835094C69AB1570 /* SeekBluetooth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = SeekBluetooth.podspec; path = ../../lib/SeekBluetooth/SeekBluetooth.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98EADA8369EA9E82CEE85F70C8F652D8 /* Pods-SeekDemo-SeekDemoUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SeekDemo-SeekDemoUITests"; path = "libPods-SeekDemo-SeekDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19B2E5926EC0EC93CCEC8B970CF1D2C /* Pods-SeekDemo-SeekDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SeekDemo-SeekDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		A53CB6755F640A0135BF1330545A031B /* Pods-SeekDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SeekDemoTests-dummy.m"; sourceTree = "<group>"; };
+		A74C011670B65705886534621478D7FC /* SeekBluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SeekBluetooth.debug.xcconfig; sourceTree = "<group>"; };
+		AB2828035BB7F1832B0806752A419C26 /* SeekBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SeekBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		B050B4E6237E8CDFD359D22B30C3333D /* Pods-SeekDemo-SeekDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekDemo-SeekDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE1D826646E8A44609CE596FC50DDAD /* Pods-SeekDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeekDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9C9CC64AF7EB38D2DA174613392B864 /* Pods-SeekDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SeekDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA3F967A72DF1F8AB8BC130E4D0A98D9 /* Pods-SeekDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SeekDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC1C1359357BEC0BE62D28C2DB27725B /* SeekBluetooth */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SeekBluetooth; path = libSeekBluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07A83DC734FD3905187F325955C84BD /* BabyBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyBluetooth.m; path = ../../lib/SeekBluetooth/SeekBluetooth/Classes/BabyBluetooth.m; sourceTree = "<group>"; };
+		E093F5C058D31D692100AE7D9DCE3AF3 /* Pods-SeekDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SeekDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73803868A1B5E3B68A44E8C8C67260FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771644CD454EA7C0CE67B0E190097BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0AA96761E3BE780EF8A5F66AC4A3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE3F06C8555590A95454BC778A92980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3D1E538C539B9D5250BD1194F7F62C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C2931E73C5B0431A4D802A5601B962 /* SeekBluetooth-dummy.m */,
+				AB2828035BB7F1832B0806752A419C26 /* SeekBluetooth-prefix.pch */,
+				A74C011670B65705886534621478D7FC /* SeekBluetooth.debug.xcconfig */,
+				743C4CCF2CC8B4D845DB29ACC6930215 /* SeekBluetooth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/SeekBluetooth";
+			sourceTree = "<group>";
+		};
+		1297349622839330D78CF1DC5A9DB694 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD1E93116421FCAAD22EFCCB98B6C2 /* SeekBluetooth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1A872C4F80E4F17D01421819B0039AD5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA55E10859D493B2D0DF339034EFD888 /* Pods-SeekDemo */,
+				3D0ECC798A722853DAA92BCC86157E2D /* Pods-SeekDemo-SeekDemoUITests */,
+				2B6F2712298586106F2338D278BDE711 /* Pods-SeekDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2AFD1E93116421FCAAD22EFCCB98B6C2 /* SeekBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				3E43CED484F81A142C2E38433ED52F9C /* BabyBluetooth.h */,
+				E07A83DC734FD3905187F325955C84BD /* BabyBluetooth.m */,
+				FF3EBE27632640B88AD4E5BB5D744A4B /* Pod */,
+				0A3D1E538C539B9D5250BD1194F7F62C /* Support Files */,
+			);
+			name = SeekBluetooth;
+			path = ../Lib/SeekBluetooth;
+			sourceTree = "<group>";
+		};
+		2B6F2712298586106F2338D278BDE711 /* Pods-SeekDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F967A72DF1F8AB8BC130E4D0A98D9 /* Pods-SeekDemoTests-acknowledgements.markdown */,
+				391CDB065CA7DA380F5270A37EEAFDDD /* Pods-SeekDemoTests-acknowledgements.plist */,
+				A53CB6755F640A0135BF1330545A031B /* Pods-SeekDemoTests-dummy.m */,
+				16A0FF059C81163A80E386A3D7C4D94F /* Pods-SeekDemoTests.debug.xcconfig */,
+				BCE1D826646E8A44609CE596FC50DDAD /* Pods-SeekDemoTests.release.xcconfig */,
+			);
+			name = "Pods-SeekDemoTests";
+			path = "Target Support Files/Pods-SeekDemoTests";
+			sourceTree = "<group>";
+		};
+		3D0ECC798A722853DAA92BCC86157E2D /* Pods-SeekDemo-SeekDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				721F300B4AEBB5CF9104263EC13B36C5 /* Pods-SeekDemo-SeekDemoUITests-acknowledgements.markdown */,
+				29642EA4A855C6FAA3F85859714CFC02 /* Pods-SeekDemo-SeekDemoUITests-acknowledgements.plist */,
+				A19B2E5926EC0EC93CCEC8B970CF1D2C /* Pods-SeekDemo-SeekDemoUITests-dummy.m */,
+				B050B4E6237E8CDFD359D22B30C3333D /* Pods-SeekDemo-SeekDemoUITests.debug.xcconfig */,
+				2217A7545518E32257B7654B6D64308E /* Pods-SeekDemo-SeekDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-SeekDemo-SeekDemoUITests";
+			path = "Target Support Files/Pods-SeekDemo-SeekDemoUITests";
+			sourceTree = "<group>";
+		};
+		52565A265123F6AD830B3807C16DB6E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312FB41B2D14D4F07595306605834553 /* Pods-SeekDemo */,
+				98EADA8369EA9E82CEE85F70C8F652D8 /* Pods-SeekDemo-SeekDemoUITests */,
+				71AEEF56B0E111289C2D813C7616C42D /* Pods-SeekDemoTests */,
+				DC1C1359357BEC0BE62D28C2DB27725B /* SeekBluetooth */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1297349622839330D78CF1DC5A9DB694 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				52565A265123F6AD830B3807C16DB6E8 /* Products */,
+				1A872C4F80E4F17D01421819B0039AD5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA55E10859D493B2D0DF339034EFD888 /* Pods-SeekDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E093F5C058D31D692100AE7D9DCE3AF3 /* Pods-SeekDemo-acknowledgements.markdown */,
+				D9C9CC64AF7EB38D2DA174613392B864 /* Pods-SeekDemo-acknowledgements.plist */,
+				4E0FD75FEA47594EBAB7195D973D07F1 /* Pods-SeekDemo-dummy.m */,
+				26C16548C5A74CDC92828E45A940C529 /* Pods-SeekDemo.debug.xcconfig */,
+				7540608035FB8BFA056DA0EED41E3D20 /* Pods-SeekDemo.release.xcconfig */,
+			);
+			name = "Pods-SeekDemo";
+			path = "Target Support Files/Pods-SeekDemo";
+			sourceTree = "<group>";
+		};
+		FF3EBE27632640B88AD4E5BB5D744A4B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3795424CC9528E111DF5B0B22EEF9B82 /* LICENSE */,
+				5A528AC93F7840CDC57AE83D2B8917DF /* README.md */,
+				7752A2BA6F5C65B50835094C69AB1570 /* SeekBluetooth.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A388FFDEF84698E85CB93E751FC9587 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F32CD20FABCC7EC439710B1F8B2FDE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D48E836A77945363ACEED86364F60F /* BabyBluetooth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED1827E47ABD0056C516E96D71CDCE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3F61C6299248D09F01B0E618A3C3BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06D9D606723C25212CB945F0B7DEB118 /* Pods-SeekDemo-SeekDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AA00B3DFAD14750B1B8607DB7CD1E1 /* Build configuration list for PBXNativeTarget "Pods-SeekDemo-SeekDemoUITests" */;
+			buildPhases = (
+				0A388FFDEF84698E85CB93E751FC9587 /* Headers */,
+				F841EBAF02D575742EDDD6C41E58BA17 /* Sources */,
+				73803868A1B5E3B68A44E8C8C67260FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC781DF55A47627CE586D787A3E15495 /* PBXTargetDependency */,
+			);
+			name = "Pods-SeekDemo-SeekDemoUITests";
+			productName = "Pods-SeekDemo-SeekDemoUITests";
+			productReference = 98EADA8369EA9E82CEE85F70C8F652D8 /* Pods-SeekDemo-SeekDemoUITests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		35DCB1DD8545F1E66B0F1B215F2B5199 /* SeekBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BCF55D343FB42F017E55BED4943D06 /* Build configuration list for PBXNativeTarget "SeekBluetooth" */;
+			buildPhases = (
+				3F32CD20FABCC7EC439710B1F8B2FDE2 /* Headers */,
+				C6E3FE89FA331C4C852B7450D6AB19C4 /* Sources */,
+				771644CD454EA7C0CE67B0E190097BFD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeekBluetooth;
+			productName = SeekBluetooth;
+			productReference = DC1C1359357BEC0BE62D28C2DB27725B /* SeekBluetooth */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D6FB916C1DE3148A53A73283D36C7D5 /* Pods-SeekDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAE44830E7DA75F4D7B126D3FDD6C62 /* Build configuration list for PBXNativeTarget "Pods-SeekDemo" */;
+			buildPhases = (
+				6ED1827E47ABD0056C516E96D71CDCE9 /* Headers */,
+				3DCF32CD3A8B735E565463429DB548AD /* Sources */,
+				BFE3F06C8555590A95454BC778A92980 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857410C87BCF73C86F0295C88800518A /* PBXTargetDependency */,
+			);
+			name = "Pods-SeekDemo";
+			productName = "Pods-SeekDemo";
+			productReference = 312FB41B2D14D4F07595306605834553 /* Pods-SeekDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0D23517C1199D77B6C44D5E5DC070B8 /* Pods-SeekDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F31CA0C1FB1EAFEA143EE8FF6D4CFCB /* Build configuration list for PBXNativeTarget "Pods-SeekDemoTests" */;
+			buildPhases = (
+				AF3F61C6299248D09F01B0E618A3C3BA /* Headers */,
+				9B59A54552DA2DE09E907940863CB69A /* Sources */,
+				8D0AA96761E3BE780EF8A5F66AC4A3A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4CD4B514A6C667451FC2F8A19FC58E /* PBXTargetDependency */,
+			);
+			name = "Pods-SeekDemoTests";
+			productName = "Pods-SeekDemoTests";
+			productReference = 71AEEF56B0E111289C2D813C7616C42D /* Pods-SeekDemoTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 52565A265123F6AD830B3807C16DB6E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D6FB916C1DE3148A53A73283D36C7D5 /* Pods-SeekDemo */,
+				06D9D606723C25212CB945F0B7DEB118 /* Pods-SeekDemo-SeekDemoUITests */,
+				A0D23517C1199D77B6C44D5E5DC070B8 /* Pods-SeekDemoTests */,
+				35DCB1DD8545F1E66B0F1B215F2B5199 /* SeekBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCF32CD3A8B735E565463429DB548AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D38D7789F10DA8CED59973AC15D838 /* Pods-SeekDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B59A54552DA2DE09E907940863CB69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36493907D8A333D796976FD795A8D1D /* Pods-SeekDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E3FE89FA331C4C852B7450D6AB19C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C73CF5616F9C564829C358BE9F3EA7 /* BabyBluetooth.m in Sources */,
+				BC00CF9A4C8740678B390394D5A95A20 /* SeekBluetooth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F841EBAF02D575742EDDD6C41E58BA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC24C976D76472F1E02C57A9ABCA8E5C /* Pods-SeekDemo-SeekDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		857410C87BCF73C86F0295C88800518A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SeekBluetooth;
+			target = 35DCB1DD8545F1E66B0F1B215F2B5199 /* SeekBluetooth */;
+			targetProxy = 568B8AD70D5A87FBAD619A437DA8BF2C /* PBXContainerItemProxy */;
+		};
+		AC781DF55A47627CE586D787A3E15495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SeekBluetooth;
+			target = 35DCB1DD8545F1E66B0F1B215F2B5199 /* SeekBluetooth */;
+			targetProxy = 2B784D2D9A9BD7ED674B0962BB6FF345 /* PBXContainerItemProxy */;
+		};
+		BD4CD4B514A6C667451FC2F8A19FC58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SeekDemo";
+			target = 6D6FB916C1DE3148A53A73283D36C7D5 /* Pods-SeekDemo */;
+			targetProxy = 9D89F355CBCA516C504785E80909C601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E4BA3A0252A48E67433BAD8FB9CA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A0FF059C81163A80E386A3D7C4D94F /* Pods-SeekDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E43842D7BB093E1A87848564598C339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2217A7545518E32257B7654B6D64308E /* Pods-SeekDemo-SeekDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4CF87A4FFD624E63489DEEF84BFE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74C011670B65705886534621478D7FC /* SeekBluetooth.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SeekBluetooth/SeekBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SeekBluetooth;
+				PRODUCT_NAME = SeekBluetooth;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		627AEE7BFE2EF4154E3CB06BAEC8316E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B050B4E6237E8CDFD359D22B30C3333D /* Pods-SeekDemo-SeekDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D990DE9632916DE2012E62459FC4890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE1D826646E8A44609CE596FC50DDAD /* Pods-SeekDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9AB0D98713471A8E62F64ECF5D14400C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743C4CCF2CC8B4D845DB29ACC6930215 /* SeekBluetooth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SeekBluetooth/SeekBluetooth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SeekBluetooth;
+				PRODUCT_NAME = SeekBluetooth;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0ED75691870454BD4D8D174B23B69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7540608035FB8BFA056DA0EED41E3D20 /* Pods-SeekDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87BD3F352BDC1E99E0101E814323C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C16548C5A74CDC92828E45A940C529 /* Pods-SeekDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F31CA0C1FB1EAFEA143EE8FF6D4CFCB /* Build configuration list for PBXNativeTarget "Pods-SeekDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E4BA3A0252A48E67433BAD8FB9CA48 /* Debug */,
+				6D990DE9632916DE2012E62459FC4890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BCF55D343FB42F017E55BED4943D06 /* Build configuration list for PBXNativeTarget "SeekBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CF87A4FFD624E63489DEEF84BFE56 /* Debug */,
+				9AB0D98713471A8E62F64ECF5D14400C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AA00B3DFAD14750B1B8607DB7CD1E1 /* Build configuration list for PBXNativeTarget "Pods-SeekDemo-SeekDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627AEE7BFE2EF4154E3CB06BAEC8316E /* Debug */,
+				1E43842D7BB093E1A87848564598C339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAE44830E7DA75F4D7B126D3FDD6C62 /* Build configuration list for PBXNativeTarget "Pods-SeekDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87BD3F352BDC1E99E0101E814323C2B /* Debug */,
+				9B0ED75691870454BD4D8D174B23B69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
