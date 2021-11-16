@@ -3,7 +3,7 @@
 
 target 'SeekDemo' do
 
-pod 'SeekBluetooth', :path => 'Lib/SeekBluetooth'
+pod 'SeekBluetooth', path => '../../SeekBluetooth'
 
 
 
